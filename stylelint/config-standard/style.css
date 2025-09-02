@@ -1,0 +1,28 @@
+.valid {
+  color: #fff;
+  padding: 10px;
+}
+
+
+.violations {
+  Color: #000;  /* Property name should be lowercase */
+  padding:10px;  /* Colon should be followed by a space */
+  margin: 10px ;  /* Semicolon should be preceded by a space */
+}
+
+/* Selector format violation */
+.selector1,.selector2 {  /* Comma should be followed by a space */
+  display: block;
+}
+
+/* Unnecessary quotes */
+.quotes {
+  font-family: 'Arial';  /* Unnecessary quotes, also missing generic fallback */
+  content: "test";  /* This is required */
+}
+
+/* Unit issue */
+.units {
+  margin: 0px;  /* 0 has no unit */
+  line-height: 1.5em;  /* line-height using em is deprecated */
+}
