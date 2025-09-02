@@ -1,0 +1,11 @@
+.valid {
+  color: #fff;
+  background: #000;
+}
+
+.invalid-hex {
+  color: #zzz;
+}
+
+.empty {
+}
