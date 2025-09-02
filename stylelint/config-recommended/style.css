@@ -1,0 +1,20 @@
+.valid {
+  color: #fff;
+  padding: 10px;
+}
+
+/* Invalid hex color */
+.invalid {
+  color: #zzz;
+  background: #12345;  /* Invalid length */
+}
+
+/* Duplicate property */
+.duplicate {
+  margin: 10px;
+  margin: 20px;
+}
+
+/* Empty block */
+.empty {
+}
