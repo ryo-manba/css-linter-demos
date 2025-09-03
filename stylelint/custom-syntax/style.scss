@@ -1,0 +1,47 @@
+// SCSS example with various issues
+$primary-color: #333;
+$secondary-color: #FFF;  // Hex should be lowercase
+
+// Nesting example
+.navbar {
+  padding: 10px;
+  margin: 0px;  // Zero with unit
+  
+  .nav-item {
+    Color: $primary-color;  // Property name should be lowercase
+    background:$secondary-color;  // Missing space after colon
+    
+    &:hover {
+      background: #F0F0F0;  // Hex should be lowercase
+    }
+    
+    // Empty block
+    &:active {
+      
+    }
+  }
+}
+
+// Mixin with issues
+@mixin button-style {
+  padding: 10px 20px;
+  border: 1px solid #CCC;  // Hex should be lowercase
+  font-family: 'Arial';  // Unnecessary quotes
+}
+
+// Using mixin
+.button {
+  @include button-style;
+  margin: 0px;  // Zero with unit
+}
+
+// SCSS function
+@function calculate-width($columns) {
+  @return 100% / $columns;
+}
+
+// Using function
+.column {
+  width: calculate-width(3);
+  float:left;  // Missing space after colon
+}

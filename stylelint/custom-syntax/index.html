@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylelint HTML Example</title>
+  <style>
+    /* Global styles */
+    body {
+      margin: 0px;  /* Should be "0" without unit */
+      padding: 20px;
+      font-family: 'Arial';  /* Unnecessary quotes */
+    }
+
+    /* Header styles */
+    .header {
+      Color: #333;  /* Property name should be lowercase */
+      background-color:#fff;  /* Missing space after colon */
+    }
+
+    /* Empty block */
+    .empty {
+
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1 style="color:red; margin: 0px;">Hello World</h1>
+    <!--       ^ Missing space  ^ Zero with unit -->
+  </div>
+  
+  <style>
+    /* Another style block */
+    .footer {
+      padding: 10px;
+      border: 1px solid #DDD;  /* Hex should be lowercase */
+    }
+  </style>
+</body>
+</html>
