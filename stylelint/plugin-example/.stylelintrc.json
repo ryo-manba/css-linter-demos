@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    "./selector-no-foo.js"
+  ],
+  "rules": {
+    "example/selector-no-foo": true
+  }
+}
