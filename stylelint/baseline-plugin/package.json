@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "stylelint": "^16.23.1",
+    "stylelint-plugin-use-baseline": "^0.8.4"
+  }
+}

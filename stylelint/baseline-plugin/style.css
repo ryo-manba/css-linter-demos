@@ -1,0 +1,34 @@
+a {
+  color: red;
+}
+
+.limited-property {
+  accent-color: red;
+}
+
+.newly-property {
+  backdrop-filter: blur(5px);
+}
+
+.limited-property-value {
+  align-items: anchor-center;
+}
+
+.limited-type {
+  width: abs(50% - 20px);
+}
+
+@view-transition {
+  from-view: pageA;
+  to-view: pageB;
+}
+
+@media (device-height: 800px) {
+  .limited-media-condition {
+    background: #eee;
+  }
+}
+
+.newly-selector:has(.child) {
+  border: 1px solid green;
+}
