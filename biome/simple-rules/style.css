@@ -1,0 +1,15 @@
+/* Simple rule test */
+
+.valid {
+  color: #fff;
+  background: #000;
+}
+
+:root {
+  --main-color: blue;
+  --main-color: red;  /* Duplicate custom property */
+}
+
+/* Empty block */
+.empty {
+}
