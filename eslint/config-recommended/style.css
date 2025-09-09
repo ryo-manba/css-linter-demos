@@ -1,0 +1,36 @@
+/* Valid CSS */
+.valid {
+  color: #fff;
+  padding: 10px;
+}
+
+/* Duplicate imports */
+@import url('reset.css');
+@import url('reset.css');  /* Duplicate import */
+
+/* Invalid at-rule */
+@invalide {
+  color: red;
+}
+
+/* Invalid property */
+.invalid-property {
+  colr: blue;  /* Typo: should be 'color' */
+  background: green;
+}
+
+/* Empty block */
+.empty {
+}
+
+/* Font without fallback */
+.text {
+  font-family: "Helvetica Neue";  /* Missing generic fallback */
+}
+
+/* Multiple issues */
+@import url('base.css');
+@import url('base.css');  /* Another duplicate */
+
+.another-empty {
+}
