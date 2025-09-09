@@ -1,0 +1,12 @@
+/* Simple rule test */
+@import url('reset.css');
+@import url('reset.css');  /* Duplicate import */
+
+.valid {
+  color: #fff;
+  background: #000;
+}
+
+/* Empty block */
+.empty {
+}
