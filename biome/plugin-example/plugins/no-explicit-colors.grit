@@ -1,0 +1,10 @@
+language css;
+
+`$selector { $props }` where {
+    $props <: contains `color: $color` as $rule,
+    not $selector <: r"\.color-.*",
+    register_diagnostic(
+        span = $rule,
+        message = "Don't set explicit colors. Use `.color-*` classes instead."
+    )
+}

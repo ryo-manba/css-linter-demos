@@ -1,5 +1,5 @@
 {
-  "name": "@biome/config-recommended",
+  "name": "@biome/plugin-example",
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
