@@ -1,7 +1,7 @@
 {
   "style1.css": {
     "css/no-empty-blocks": {
-      "count": 2
+      "count": 1
     },
     "css/no-invalid-properties": {
       "count": 1
