@@ -1,0 +1,9 @@
+{
+  "name": "stylelint-bulk-suppressions-demo",
+  "scripts": {
+    "lint": "stylelint *.css"
+  },
+  "devDependencies": {
+    "stylelint": "github:stylelint/stylelint#pull/8564/head"
+  }
+}
