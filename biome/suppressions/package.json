@@ -1,0 +1,11 @@
+{
+  "name": "biome-suppressions-demo",
+  "scripts": {
+    "lint": "biome lint .",
+    "suppress": "biome lint --write --unsafe .",
+    "check": "biome check ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.4"
+  }
+}

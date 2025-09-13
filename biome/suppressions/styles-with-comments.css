@@ -1,0 +1,9 @@
+/* Example with manual suppression comments */
+
+/* biome-ignore lint/suspicious/noEmptyBlock: manual suppression */
+a {} /* empty block - suppressed */
+
+a {
+  /* biome-ignore lint/correctness/noUnknownProperty: manual suppression */
+  foo: red; /* invalid property - suppressed */
+}

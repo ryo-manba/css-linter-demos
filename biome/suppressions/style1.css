@@ -1,0 +1,6 @@
+/* style1.css - has 2 violations */
+a {} /* empty block */
+
+a {
+  foo: red; /* invalid property */
+}
