@@ -10,11 +10,23 @@ a {
   bar: #ff0000;
 }
 
+/* Error: Invalid descriptor value */
+@example test {
+  foo: not-a-number;
+  bar: invalid-color;
+}
+
 /* Valid: Custom properties */
 .custom {
   my-color: #00ff00;
   my-size: 20px;
   my-size: 50%;
+}
+
+/* Error: Invalid property values */
+.invalid-values {
+  my-color: not-a-color;
+  my-size: invalid;
 }
 
 /* Error: Invalid at-rule (not defined) */
