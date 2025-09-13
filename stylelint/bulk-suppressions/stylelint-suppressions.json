@@ -1,0 +1,18 @@
+{
+  "style1.css": {
+    "block-no-empty": {
+      "count": 1
+    },
+    "property-no-unknown": {
+      "count": 1
+    }
+  },
+  "style2.css": {
+    "block-no-empty": {
+      "count": 1
+    },
+    "property-no-unknown": {
+      "count": 2
+    }
+  }
+}
