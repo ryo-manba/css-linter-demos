@@ -1,0 +1,9 @@
+/* Valid CSS */
+a {
+  color: red;
+}
+
+/* Using !important - violates no-important rule */
+a {
+  color: red !important;
+}

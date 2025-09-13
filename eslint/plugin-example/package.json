@@ -1,0 +1,14 @@
+{
+  "name": "@eslint/plugin-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint **/*.css",
+    "lint:fix": "eslint **/*.css --fix"
+  },
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "@eslint/css": "^0.1.0"
+  }
+}
