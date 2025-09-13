@@ -1,0 +1,9 @@
+/* style1.css - has 2 violations */
+a {} /* empty block */
+
+a {
+  foo: red; /* invalid property */
+}
+
+/* New violation added after suppressions */
+.new {} /* new empty block - should be reported */

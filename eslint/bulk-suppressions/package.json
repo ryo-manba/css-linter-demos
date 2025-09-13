@@ -1,0 +1,11 @@
+{
+  "name": "eslint-bulk-suppressions-demo",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint *.css"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.1.0",
+    "eslint": "^9.24.0"
+  }
+}
