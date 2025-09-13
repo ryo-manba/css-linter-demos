@@ -1,0 +1,26 @@
+/* Valid: Standard CSS */
+a {
+  color: blue;
+}
+
+
+/* Valid: Custom at-rule with descriptors */
+@example myname {
+  foo: 123;
+  bar: #ff0000;
+}
+
+/* Valid: Custom properties */
+.custom {
+  my-color: #00ff00;
+  my-size: 20px;
+  my-size: 50%;
+}
+
+/* Error: Invalid at-rule (not defined) */
+@undefined "test";
+
+/* Error: Invalid property (not defined) */
+.invalid {
+  unknown-property: value;
+}

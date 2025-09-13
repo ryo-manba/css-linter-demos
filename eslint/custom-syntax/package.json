@@ -1,14 +1,14 @@
 {
-  "name": "@eslint/plugin-example",
+  "name": "eslint-custom-syntax-demo",
   "version": "1.0.0",
-  "private": true,
+  "description": "ESLint CSS with custom syntax extensions",
   "type": "module",
   "scripts": {
     "lint": "eslint **/*.css",
     "lint:fix": "eslint **/*.css --fix"
   },
   "devDependencies": {
-    "eslint": "^9.17.0",
-    "@eslint/css": "^0.11.0"
+    "@eslint/css": "^0.11.0",
+    "eslint": "^9.0.0"
   }
 }
