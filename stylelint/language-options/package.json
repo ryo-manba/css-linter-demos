@@ -1,0 +1,11 @@
+{
+  "name": "stylelint-language-options-demo",
+  "version": "1.0.0",
+  "description": "Stylelint with languageOptions for custom syntax",
+  "scripts": {
+    "lint": "stylelint style.css"
+  },
+  "devDependencies": {
+    "stylelint": "^16.24.0"
+  }
+}

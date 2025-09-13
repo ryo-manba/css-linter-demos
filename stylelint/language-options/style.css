@@ -1,0 +1,40 @@
+/* Valid: Custom at-rule with descriptors */
+@example myname {
+  foo: 123;
+  bar: #ff0000;
+}
+
+/* Error: Invalid descriptor value */
+@example test {
+  foo: not-a-number;
+  bar: invalid-color;
+}
+
+/* Error: Invalid descriptor */
+@example test {
+  baz: 123;
+}
+
+/* Error: Invalid at-rule (not defined) */
+@undefined "test";
+
+/* Error: Invalid prelude */
+@example 123test;
+
+/* Valid: Custom properties */
+.custom {
+  my-color: #00ff00;
+  my-size: 20px;
+  my-size: 50%;
+}
+
+/* Error: Invalid property values */
+a {
+  my-color: not-a-color;
+  my-size: invalid;
+}
+
+/* Error: Invalid property */
+a {
+  unknown-property: value;
+}
