@@ -1,0 +1,17 @@
+/* Tailwind directives - NO WARNING with stylelint-config-tailwindcss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Using @apply - NO WARNING with stylelint-config-tailwindcss */
+.button {
+  @apply text-white px-4 bg-blue-500 py-2;
+}
+
+/* Using theme() function - NO WARNING with stylelint-config-tailwindcss */
+.card {
+  background: theme('colors.gray.100');
+}
+
+/* Unknown at-rule - THIS WILL SHOW WARNING even with stylelint-config-tailwindcss */
+@unknown example;
