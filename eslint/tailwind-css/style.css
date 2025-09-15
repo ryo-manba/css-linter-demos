@@ -1,0 +1,28 @@
+/* ESLint with tailwind-csstree validates Tailwind syntax */
+
+/* CORRECT: @apply with utility classes - NO ERROR */
+.button {
+  @apply text-white bg-blue-500;
+}
+
+/* INCORRECT: @apply with CSS properties - SHOWS ERROR */
+.invalid {
+  @apply {
+    color: red;
+  }
+}
+
+/* INCORRECT: Empty @apply - SHOWS ERROR */
+.empty {
+  @apply;
+}
+
+/* CORRECT: theme() function - NO ERROR */
+.themed {
+  background: theme(colors.blue.500);
+}
+
+/* INCORRECT: Invalid theme() value - SHOWS ERROR */
+.invalid-theme {
+  color: theme(fake.value); /* Invalid value for 'color' property */
+}
