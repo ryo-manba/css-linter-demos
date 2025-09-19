@@ -1,0 +1,14 @@
+{
+  "name": "stylelint-no-unsupported-browser-features-demo",
+  "version": "1.0.0",
+  "description": "Demo of stylelint-no-unsupported-browser-features plugin",
+  "private": true,
+  "scripts": {
+    "lint": "stylelint \"**/*.css\"",
+    "lint:fix": "stylelint \"**/*.css\" --fix"
+  },
+  "devDependencies": {
+    "stylelint": "^16.24.0",
+    "stylelint-no-unsupported-browser-features": "^8.0.1"
+  }
+}

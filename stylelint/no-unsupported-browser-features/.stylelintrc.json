@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "stylelint-no-unsupported-browser-features"
+  ],
+  "rules": {
+    "plugin/no-unsupported-browser-features": [
+      true,
+      {
+        "severity": "warning",
+        "browsers": [
+          "last 2 versions",
+          "> 1%",
+          "IE 11",
+          "Firefox ESR",
+          "Safari 12"
+        ],
+        "ignore": []
+      }
+    ]
+  }
+}

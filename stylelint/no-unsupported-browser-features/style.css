@@ -1,0 +1,23 @@
+/* Modern CSS features not supported in older browsers */
+
+/* CSS Grid - not supported in IE 11 */
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+/* CSS Variables - not supported in IE 11 */
+:root {
+  --primary: #007bff;
+}
+
+.button {
+  background: var(--primary);
+}
+
+/* Container Queries - very limited support */
+@container (min-width: 400px) {
+  .card {
+    padding: 2rem;
+  }
+}
