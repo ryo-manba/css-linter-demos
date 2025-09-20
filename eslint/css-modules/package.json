@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "lint": "eslint styles.module.css",
+    "lint:fix": "eslint styles.module.css --fix"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.11.0",
+    "eslint": "^9.24.0"
+  }
+}
