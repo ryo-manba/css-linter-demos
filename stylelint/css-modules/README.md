@@ -23,10 +23,15 @@ styles.module.css
 
 ✅ **Supported:**
 - `composes` and `compose-with` properties
-- `:local()` and `:global()` pseudo-classes  
+- `:local()` and `:global()` pseudo-classes
 - `@value` declarations (parsed correctly)
 - `:export` pseudo-class
 
 ⚠️ **Limitations:**
 - CSS Module variables (`primary`) reported as unknown values when property value validation is enabled
-- `:export` block properties reported as unknown
+- `:export` block properties (`black`, `white`) not recognized as special syntax
+
+✅ **Validation Works:**
+- Unknown properties detected (`foo`)
+- Invalid property values detected (`baz`)
+- Unknown at-rules detected (`@foo`)
