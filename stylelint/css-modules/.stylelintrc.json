@@ -1,0 +1,6 @@
+{
+  "extends": "stylelint-config-css-modules",
+  "rules": {
+    "declaration-property-value-no-unknown": true
+  }
+}
