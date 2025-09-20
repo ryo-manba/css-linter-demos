@@ -1,8 +1,0 @@
-{
-  "name": "@biome/css-modules-example",
-  "version": "1.0.0",
-  "private": true,
-  "devDependencies": {
-    "@biomejs/biome": "^2.2.4"
-  }
-}
