@@ -1,0 +1,46 @@
+/* CSS Modules specific syntax */
+
+/* @value declarations for importing variables */
+@value colors: './colors.css';
+@value primary, secondary from colors;
+
+/* Base class with CSS Module variable */
+.base {
+  content: 'base';
+  color: primary; /* CSS Module variable - Stylelint reports as unknown value */
+}
+
+/* Composition - CSS Modules feature */
+.composed {
+  composes: base;
+}
+
+.composedWith {
+  compose-with: base;
+}
+
+/* Composition from external file */
+.flexible {
+  composes: flex from './utils.css';
+  flex-direction: column;
+}
+
+/* Global scope selector */
+:global(.js) .progressive {
+  display: block;
+}
+
+/* Export values - CSS Modules feature */
+:export {
+  black: #000;
+  white: #111;
+}
+
+/* Intentional CSS errors for validation testing */
+.errors {
+  foo: red;    /* Unknown property */
+  color: baz;  /* Unknown property value */
+}
+
+/* Unknown at-rule */
+@foo bar;
