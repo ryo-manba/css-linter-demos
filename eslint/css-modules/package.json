@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "scripts": {
     "lint": "eslint styles.module.css",
     "lint:fix": "eslint styles.module.css --fix"

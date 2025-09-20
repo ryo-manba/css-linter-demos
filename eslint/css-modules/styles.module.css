@@ -1,8 +1,8 @@
 /* CSS Modules specific syntax */
 
 /* @value declarations for importing variables */
-@value colors: './colors.css';
-@value primary, secondary from colors;
+/* @value colors: './colors.css';
+@value primary, secondary from colors; */
 
 /* Base class with CSS Module variable */
 .base {
@@ -23,6 +23,11 @@
 .flexible {
   composes: flex from './utils.css';
   flex-direction: column;
+}
+
+/* Local scope selector */
+:local(.localCard) {
+  background-color: #f0f0f0;
 }
 
 /* Global scope selector */

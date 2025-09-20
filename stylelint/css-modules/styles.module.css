@@ -25,6 +25,11 @@
   flex-direction: column;
 }
 
+/* Local scope selector */
+:local(.localCard) {
+  background-color: #f0f0f0;
+}
+
 /* Global scope selector */
 :global(.js) .progressive {
   display: block;

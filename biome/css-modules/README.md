@@ -49,6 +49,7 @@ styles.module.css:41:3 lint/correctness/noUnknownProperty
 
 - `@value` declarations
 - `compose-with` property
+- `:local()` pseudo-class (treated as unknown or ignored)
 - `:export` pseudo-class and its properties
 - CSS Module variables (`primary`)
 

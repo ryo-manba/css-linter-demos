@@ -27,12 +27,14 @@ styles.module.css
 ## CSS Modules Support
 
 ❌ **Not Supported:**
+
 - `@value` declarations (must be commented out to parse)
 - `composes` and `compose-with` properties
 - `:export` pseudo-class properties
 - CSS Module variables (`primary`)
 
 ✅ **Validation Works:**
+
 - Unknown properties detected (`foo`, `black`, `white`)
 - Invalid property values detected (`baz`)
 - Unknown at-rules detected (`@foo`)
