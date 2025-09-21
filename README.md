@@ -2,10 +2,15 @@
 
 CSS linting configuration examples for Stylelint, ESLint, and Biome.
 
-## Overview
+## Demo Categories
 
-Each tool directory includes various configuration examples:
-
-- **Simple Rules**: Basic linting rules for common CSS issues
-- **Recommended Config**: Using pre-configured recommended rule sets
-- **Custom Plugins**: Creating and using custom linting rules
+- Simple rules
+- Recommended/Standard configs
+- Custom plugins
+- CSS-in-JS
+- CSS Modules
+- Tailwind CSS
+- Baseline
+- Language options
+- Bulk Suppressions
+- and more...
